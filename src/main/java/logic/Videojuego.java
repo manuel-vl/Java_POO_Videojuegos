@@ -57,4 +57,15 @@ public class Videojuego {
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
+
+    @Override
+    public String toString() {
+        return "Videojuego{" +
+                "codigo=" + codigo +
+                ", titulo='" + titulo + '\'' +
+                ", consola='" + consola + '\'' +
+                ", players=" + players +
+                ", categoria='" + categoria + '\'' +
+                '}';
+    }
 }
